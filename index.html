@@ -3,29 +3,48 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Patas & Amor - Blog de Adoção</title>
+  <title>Adote Vida | Guia e Portal de Adoção Responsável</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
   <header>
-    <h1>🐾 Patas & Amor</h1>
-    <p>Histórias, dicas e razões para transformar a vida de um pet.</p>
+    <div class="header-container">
+      <div class="logo">🐾 AdoteVida</div>
+      <button id="themeToggle" class="theme-btn" aria-label="Alternar tema">
+        🌗 <span id="themeText">Modo Escuro</span>
+      </button>
+    </div>
   </header>
 
   <section class="hero">
-    <h2>Mude uma vida, adote um amigo!</h2>
-    <p>Milhares de animais esperam por um lar cheio de afeto. Descubra como a adoção transforma vidas.</p>
+    <div class="container">
+      <h1>Adoção Responsável Transforma Vidas</h1>
+      <p>Milhares de cães e gatos resgatados aguardam por uma segunda chance. Descubra tudo o que você precisa saber para transformar o futuro de um pet.</p>
+    </div>
   </section>
 
   <main class="container">
-    <div class="posts-grid" id="postsContainer"></div>
-  </main>
+    <section class="info-section">
+      <h2>Por que a Adoção Consciente é Importante?</h2>
+      <div class="info-grid">
+        <article class="info-card">
+          <h3>Salva Duas Vidas</h3>
+          <p>Ao adotar, você salva o animal escolhido e abre espaço no abrigo para resgatar outro pet em situação de vulnerabilidade.</p>
+        </article>
+        <article class="info-card">
+          <h3>Combate o Abandono</h3>
+          <p>A adoção incentiva o controle populacional ético e enfraquece o comércio irresponsável de reprodução de animais.</p>
+        </article>
+        <article class="info-card">
+          <h3>Saúde e Bem-Estar</h3>
+          <p>Conviver com animais reduz estresse e ansiedade. Animais adotados demonstram gratidão e companheirismo contínuo.</p>
+        </article>
+      </div>
+    </section>
 
-  <footer>
-    <p>© 2026 Patas & Amor - Incentivando a adoção responsável.</p>
-  </footer>
-
-  <script src="script.js"></script>
-</body>
-</html>
+    <section class="steps-section">
+      <h2>Passo a Passo da Adoção Responsável</h2>
