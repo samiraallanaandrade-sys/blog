@@ -3,48 +3,56 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Adote Vida | Guia e Portal de Adoção Responsável</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <title>Adote um Amigo | Salve Vidas</title>
+  <!-- Vínculo com o arquivo CSS -->
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
   <header>
-    <div class="header-container">
-      <div class="logo">🐾 AdoteVida</div>
-      <button id="themeToggle" class="theme-btn" aria-label="Alternar tema">
-        🌗 <span id="themeText">Modo Escuro</span>
+    <div class="nav-container">
+      <div class="logo">🐾 AdoteAfeto</div>
+      <button class="theme-toggle-btn" id="themeToggleBtn" aria-label="Alternar tema">
+        🌗 <span id="themeLabel">Modo Escuro</span>
       </button>
     </div>
   </header>
 
-  <section class="hero">
-    <div class="container">
-      <h1>Adoção Responsável Transforma Vidas</h1>
-      <p>Milhares de cães e gatos resgatados aguardam por uma segunda chance. Descubra tudo o que você precisa saber para transformar o futuro de um pet.</p>
-    </div>
-  </section>
+  <main>
+    <section class="hero">
+      <h1>Adotar é Transformar Duas Vidas</h1>
+      <p>Milhares de animais esperam por um lar seguro. Adoção responsável traz amor indiscutível e combate a superpopulação nas ruas.</p>
+    </section>
 
-  <main class="container">
     <section class="info-section">
-      <h2>Por que a Adoção Consciente é Importante?</h2>
+      <h2>Por que a Adoção Responsável importa?</h2>
       <div class="info-grid">
         <article class="info-card">
-          <h3>Salva Duas Vidas</h3>
-          <p>Ao adotar, você salva o animal escolhido e abre espaço no abrigo para resgatar outro pet em situação de vulnerabilidade.</p>
+          <h3>1. Combate o Abandono</h3>
+          <p>Ao adotar, você quebra o ciclo de superpopulação e ajuda a esvaziar abrigos lotados, dando espaço para novos resgates.</p>
         </article>
         <article class="info-card">
-          <h3>Combate o Abandono</h3>
-          <p>A adoção incentiva o controle populacional ético e enfraquece o comércio irresponsável de reprodução de animais.</p>
+          <h3>2. Pré-requisitos Básicos</h3>
+          <p>Ter mais de 18 anos, estabilidade financeira para cuidados veterinários/alimentação e garantir um ambiente seguro e sem rotas de fuga.</p>
         </article>
         <article class="info-card">
-          <h3>Saúde e Bem-Estar</h3>
-          <p>Conviver com animais reduz estresse e ansiedade. Animais adotados demonstram gratidão e companheirismo contínuo.</p>
+          <h3>3. Saúde e Vacinados</h3>
+          <p>A maioria dos animais para adoção em ONGs já é entregue castrada, vermifugada e com as vacinas essenciais em dia.</p>
         </article>
       </div>
     </section>
 
-    <section class="steps-section">
-      <h2>Passo a Passo da Adoção Responsável</h2>
+    <section>
+      <h2 class="posts-header">Artigos e Histórias</h2>
+      <div id="postsContainer" class="posts-grid"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 AdoteAfeto - Incentivando a adoção responsável e consciente.</p>
+  </footer>
+
+  <!-- Vínculo com o arquivo JS (carregado ao final do body) -->
+  <script src="script.js"></script>
+</body>
+</html>
